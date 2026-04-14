@@ -1,0 +1,1024 @@
+{
+  "event": {
+    "name": "hack26",
+    "slug": "hack26",
+    "repo": "hack26",
+    "topics": [
+      "solution-centre",
+      "hack26",
+      "python",
+      "azure",
+      "power-bi",
+      "github",
+      "hackathon",
+      "innovation",
+      "data",
+      "artificial-intelligence",
+      "prototyping",
+      "collaboration",
+      "challenge1",
+      "large-language-models",
+      "machine-learning",
+      "natural-language-processing",
+      "risk-management",
+      "tacit-knowledge",
+      "heuristics",
+      "project-risk"
+    ],
+    "technologies": [
+      "python",
+      "azure",
+      "power-bi",
+      "github",
+      "large-language-models",
+      "machine-learning",
+      "natural-language-processing",
+      "streamlit",
+      "reportlab",
+      "pandas",
+      "microsoft-excel",
+      "dataverse",
+      "power-apps",
+      "power-automate",
+      "copilot-studio",
+      "jupyter",
+      "google-gemini",
+      "openpyxl",
+      "fuzzywuzzy",
+      "json",
+      "microsoft-copilot",
+      "office-365",
+      "project-scheduling-tools",
+      "microsoft-office",
+      "primavera-p6",
+      "document-analysis",
+      "knowledge-bases",
+      "search",
+      "pdfplumber",
+      "sentence-transformers"
+    ]
+  },
+  "visibility": {
+    "event_repo": "public",
+    "team_repos": "public"
+  },
+  "repos": [
+    {
+      "type": "event",
+      "name": "hack26",
+      "description": "hack26 is a collaborative hackathon-style event focused on rapidly exploring and prototyping practical data and AI solutions against a defined set of challenges. Teams work within clear challenge boundaries to test ideas, build proof\u2011of\u2011concepts and share learning in a short, intensive format.",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "python",
+        "azure",
+        "power-bi",
+        "github",
+        "hackathon",
+        "innovation",
+        "data",
+        "artificial-intelligence",
+        "prototyping",
+        "collaboration",
+        "challenge1",
+        "large-language-models",
+        "machine-learning",
+        "natural-language-processing",
+        "risk-management",
+        "tacit-knowledge",
+        "heuristics",
+        "project-risk"
+      ],
+      "technologies": [
+        "python",
+        "azure",
+        "power-bi",
+        "github",
+        "large-language-models",
+        "machine-learning",
+        "natural-language-processing",
+        "streamlit",
+        "reportlab",
+        "pandas",
+        "microsoft-excel",
+        "dataverse",
+        "power-apps",
+        "power-automate",
+        "copilot-studio",
+        "jupyter",
+        "google-gemini",
+        "openpyxl",
+        "fuzzywuzzy",
+        "json",
+        "microsoft-copilot",
+        "office-365",
+        "project-scheduling-tools",
+        "microsoft-office",
+        "primavera-p6",
+        "document-analysis",
+        "knowledge-bases",
+        "search",
+        "pdfplumber",
+        "sentence-transformers"
+      ]
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risk Insight Ignition: Making Tacit Knowledge Tangible",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project risk management by capturing and applying subject matter expert (SME) heuristics that are typically tacit and inconsistently recorded. Teams explore how large language models and related AI techniques can codify SME insight, apply it to existing risk registers, and enhance the quality, consistency and usefulness of risk identification and mitigation data, with an emphasis on learning and refinement through expert feedback.",
+      "challenge_slug": "challenge1",
+      "team_name": "Jim-E",
+      "team_slug": "a",
+      "name": "hack26-jim-e",
+      "child_repo_path": "submissions/hack26-challenge1-a",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-jim-e.git",
+      "description": "The team built Jim\u2011E, an interactive AI\u2011assisted risk review tool that applies SME heuristics to project risk entries. Using a lightweight Streamlit interface and encoded heuristic rules, the solution helps users identify weak risks and mitigations, capture structured feedback, and generate clear audit\u2011ready reports.",
+      "key_outcomes": "Improves the consistency and quality of risk register entries by systematically applying SME heuristics; reduces time spent reviewing risks and mitigations; provides clearer evidence trails to support earlier intervention and better risk decisions.",
+      "important_files": [
+        {
+          "path": "jim-e_ui_demo_final.py",
+          "purpose": "Streamlit user interface for capturing risk descriptions, SME agreement and feedback, and generating structured reviews."
+        },
+        {
+          "path": "hassans_brilliance.py",
+          "purpose": "Core application logic for managing submission history and producing PDF risk review reports."
+        },
+        {
+          "path": "Heurisitcs.docx",
+          "purpose": "Documented SME risk heuristics used to assess risk quality and mitigation strength."
+        }
+      ],
+      "required_fields": {
+        "summary": "An AI\u2011assisted risk review tool that makes tacit SME knowledge explicit and reusable.",
+        "problem": "Risk registers often contain vague risks and weak mitigations, with critical SME insight remaining uncaptured.",
+        "approach": "Encode SME heuristics and apply them through a human\u2011in\u2011the\u2011loop Streamlit app that reviews risks and captures structured feedback.",
+        "deliverables": "Working Streamlit application (Jim\u2011E), encoded heuristics set, and automatically generated PDF risk review reports."
+      },
+      "thumbnail_path": "Screenshot 2025-10-22 142554.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge1",
+        "python",
+        "streamlit",
+        "reportlab",
+        "pandas",
+        "large-language-models",
+        "risk-management",
+        "heuristics",
+        "tacit-knowledge",
+        "data-quality",
+        "project-risk",
+        "human-in-the-loop"
+      ],
+      "technologies": [
+        "python",
+        "streamlit",
+        "reportlab",
+        "pandas",
+        "large-language-models"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risk Insight Ignition: Making Tacit Knowledge Tangible",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project risk management by capturing and applying subject matter expert (SME) heuristics that are typically tacit and inconsistently recorded. Teams explore how large language models and related AI techniques can codify SME insight, apply it to existing risk registers, and enhance the quality, consistency and usefulness of risk identification and mitigation data, with an emphasis on learning and refinement through expert feedback.",
+      "challenge_slug": "challenge1",
+      "team_name": "AI Risk Evaluator",
+      "team_slug": "b",
+      "name": "hack26-ai-risk-evaluator",
+      "child_repo_path": "submissions/hack26-challenge1-b",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-ai-risk-evaluator.git",
+      "description": "The team developed an AI-enabled risk management solution that integrates SME heuristics with automated evaluation to improve the quality and actionability of project risk registers. The approach combines Microsoft Power Platform components with LLM-driven analysis to identify weak risks and mitigations, prioritise critical issues, and support continuous learning through SME feedback.",
+      "key_outcomes": "Earlier identification of weak or poorly defined risks; improved mitigation quality through structured AI and SME review; more consistent risk language across registers; faster and more informed decision-making supported by live dashboards.",
+      "important_files": [
+        {
+          "path": "Ai Risk Evaluator_Group 1B_Ministry of Data_23.10.2025_V01.docx",
+          "purpose": "Executive summary and architecture description of the AI-driven risk evaluation solution."
+        },
+        {
+          "path": "Risk Management App - User Guide.docx",
+          "purpose": "User guide explaining how to capture risks, review AI evaluations, provide SME feedback, and use dashboards."
+        },
+        {
+          "path": "SME Heuristics Word Analysis.docx",
+          "purpose": "Detailed analysis and categorisation of SME heuristics used to assess risk and mitigation quality."
+        }
+      ],
+      "required_fields": {
+        "summary": "An AI-driven risk evaluation platform that embeds SME heuristics into everyday risk management.",
+        "problem": "Risk registers suffer from inconsistent language, weak mitigations, and limited reuse of SME knowledge.",
+        "approach": "Use the Microsoft Power Platform and LLMs to automate risk evaluation, capture SME feedback, and iteratively refine heuristics.",
+        "deliverables": "End-to-end risk management application, documented system architecture, SME heuristic library, and Power BI dashboards."
+      },
+      "thumbnail_path": "Screenshot 2025-10-22 at 10.43.19.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge1",
+        "microsoft-excel",
+        "dataverse",
+        "power-apps",
+        "power-automate",
+        "copilot-studio",
+        "power-bi",
+        "large-language-models",
+        "risk-management",
+        "heuristics",
+        "tacit-knowledge",
+        "data-quality",
+        "project-risk",
+        "decision-support",
+        "analytics"
+      ],
+      "technologies": [
+        "microsoft-excel",
+        "dataverse",
+        "power-apps",
+        "power-automate",
+        "copilot-studio",
+        "power-bi",
+        "large-language-models"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risk Insight Ignition: Making Tacit Knowledge Tangible",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project risk management by capturing and applying subject matter expert (SME) heuristics that are typically tacit and inconsistently recorded. Teams explore how large language models and related AI techniques can codify SME insight, apply it to existing risk registers, and enhance the quality, consistency and usefulness of risk identification and mitigation data, with an emphasis on learning and refinement through expert feedback.",
+      "challenge_slug": "challenge1",
+      "team_name": "Risk Hacktory",
+      "team_slug": "c",
+      "name": "hack26-risk-hacktory",
+      "child_repo_path": "submissions/hack26-challenge1-c",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-risk-hacktory.git",
+      "description": "The team produced a data\u2011driven risk heuristics analysis pipeline that combines Python analytics with large language model feedback to assess and enrich existing risk registers. Using Jupyter notebooks, they analyse risk and mitigation data, apply SME heuristics via an LLM, and output annotated spreadsheets and summary datasets designed for downstream Power BI dashboards.",
+      "key_outcomes": "Improved visibility of weak or incomplete risks and mitigations; faster identification of data gaps and risk hotspots; more consistent application of SME heuristics at scale; better decision support through structured analytics outputs.",
+      "important_files": [
+        {
+          "path": "analysis1.ipynb",
+          "purpose": "Main notebook analysing risk data, applying SME heuristics via an LLM, and generating annotated outputs."
+        },
+        {
+          "path": "Data Analysis & Cleaning - Python/Data Analysis_1.ipynb",
+          "purpose": "Supporting notebook for cleaning, merging, and preparing risk and mitigation datasets."
+        },
+        {
+          "path": "Front End/merged_risk_mit.csv",
+          "purpose": "Combined risk and mitigation dataset used for analysis and reporting."
+        }
+      ],
+      "required_fields": {
+        "summary": "A Python\u2011based analytics and LLM pipeline for assessing risk register quality using SME heuristics.",
+        "problem": "Risk registers contain inconsistent, incomplete data that is difficult to analyse and assess at scale.",
+        "approach": "Clean and analyse risk data with Python, apply SME heuristics using an LLM, and generate structured, annotated outputs for reporting.",
+        "deliverables": "Jupyter notebooks, annotated Excel outputs with LLM feedback, and analysis datasets feeding Power BI dashboards."
+      },
+      "thumbnail_path": "Video/image.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge1",
+        "python",
+        "pandas",
+        "jupyter",
+        "google-gemini",
+        "openpyxl",
+        "power-bi",
+        "risk-management",
+        "heuristics",
+        "data-analysis",
+        "large-language-models",
+        "data-quality",
+        "project-risk",
+        "analytics",
+        "automation"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "jupyter",
+        "google-gemini",
+        "openpyxl",
+        "power-bi"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risk Insight Ignition: Making Tacit Knowledge Tangible",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project risk management by capturing and applying subject matter expert (SME) heuristics that are typically tacit and inconsistently recorded. Teams explore how large language models and related AI techniques can codify SME insight, apply it to existing risk registers, and enhance the quality, consistency and usefulness of risk identification and mitigation data, with an emphasis on learning and refinement through expert feedback.",
+      "challenge_slug": "challenge1",
+      "team_name": "Risk Assessment Rule Management System",
+      "team_slug": "d",
+      "name": "hack26-risk-REDACTED",
+      "child_repo_path": "submissions/hack26-challenge1-d",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-risk-REDACTED.git",
+      "description": "The team built a rule\u2011driven risk assessment system that converts SME survey responses into structured, validated heuristics. Using LLMs, fuzzy matching, and human\u2011in\u2011the\u2011loop review, they generate, deduplicate, and govern high\u2011quality risk and mitigation rules that can be applied consistently across risk registers.",
+      "key_outcomes": "Improved consistency and clarity of risk and mitigation definitions; reduced duplication and ambiguity in heuristics; stronger guardrails against low\u2011quality or hallucinated AI outputs; faster standardisation of SME knowledge into reusable rules.",
+      "important_files": [
+        {
+          "path": "deduplicate_rules.ipynb",
+          "purpose": "Notebook for identifying, deduplicating, and merging similar heuristic rules using fuzzy matching."
+        },
+        {
+          "path": "generated_rules.json",
+          "purpose": "Structured JSON output of validated risk and mitigation rules."
+        },
+        {
+          "path": "Categorisation of Risk Heuristic Survey Questions.docx",
+          "purpose": "Defines categories used to classify SME heuristic survey responses."
+        }
+      ],
+      "required_fields": {
+        "summary": "A governed rule\u2011management system that transforms SME heuristics into consistent, reusable risk assessment rules.",
+        "problem": "SME knowledge about good and poor risks and mitigations is fragmented, duplicated, and inconsistently applied.",
+        "approach": "Use LLMs to extract rules from SME survey data, deduplicate them with fuzzy matching, and validate outputs through structured schemas and human review.",
+        "deliverables": "Rule generation notebooks, deduplication logic, categorised heuristic rulesets in JSON, and documentation of rule governance."
+      },
+      "thumbnail_path": "Screenshot_20251022_130235_LinkedIn.jpg",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge1",
+        "python",
+        "jupyter",
+        "fuzzywuzzy",
+        "json",
+        "large-language-models",
+        "risk-management",
+        "heuristics",
+        "rule-engine",
+        "data-quality",
+        "governance",
+        "human-in-the-loop"
+      ],
+      "technologies": [
+        "python",
+        "jupyter",
+        "fuzzywuzzy",
+        "json",
+        "large-language-models"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Automated WBS AutoPlan: From Narrative to Project Schedule",
+      "challenge_description": "This challenge, presented by EDF, focuses on automating the creation of project schedules from unstructured scope documents and narratives. Teams explore how large language models and related AI techniques can read narrative project descriptions and generate consistent, structured Work Breakdown Structures (WBS) with activities, milestones, durations, and logical dependencies, reducing manual effort, improving consistency, and enabling earlier visibility of delivery risks within secure enterprise environments.",
+      "challenge_slug": "challenge2",
+      "team_name": "AutoPlan WBS Generator",
+      "team_slug": "a",
+      "name": "hack26-autoplan-wbs-generator",
+      "child_repo_path": "submissions/hack26-challenge2-a",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-autoplan-wbs-generator.git",
+      "description": "The team developed an automated Work Breakdown Structure generator that converts narrative project scope documents into structured, standardised schedules. Using defined activity standards and sample enterprise schedule data, the solution demonstrates how unstructured text can be transformed into consistent WBS elements with activities, durations, and dependencies suitable for downstream planning tools.",
+      "key_outcomes": "Reduced manual effort in creating initial WBS and schedules; improved consistency of activities and naming across projects; earlier visibility of schedule structure and delivery risks; faster transition from scope definition to executable plan.",
+      "important_files": [
+        {
+          "path": "2A Test Documents/Project Scope Example.docx",
+          "purpose": "Example narrative scope document used as input for automated WBS generation."
+        },
+        {
+          "path": "2A Test Documents/Standardised Activities.docx",
+          "purpose": "Defines standard activity rules and attributes required for consistent scheduling."
+        },
+        {
+          "path": "Data/Extra Schedule Data/DUKHAN HOUSING PROJECT PHASE IX 12th update.xer",
+          "purpose": "Real-world schedule data used to validate structure, logic, and activity patterns."
+        }
+      ],
+      "required_fields": {
+        "summary": "An automated approach to generating structured WBS and schedules directly from narrative scope documents.",
+        "problem": "Project schedules are slow and inconsistent to build when WBS structures are created manually from text.",
+        "approach": "Apply NLP techniques and standard activity rules to translate scope narratives into structured WBS and schedule data.",
+        "deliverables": "Automated WBS output, standardised activity definitions, and validated schedule structures aligned to enterprise tools."
+      },
+      "thumbnail_path": "Gemini_Generated_Image_d5shbpd5shbpd5sh.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge2",
+        "natural-language-processing",
+        "project-scheduling-tools",
+        "microsoft-office",
+        "primavera-p6",
+        "project-scheduling",
+        "work-breakdown-structure",
+        "automation",
+        "project-controls",
+        "data-quality"
+      ],
+      "technologies": [
+        "natural-language-processing",
+        "project-scheduling-tools",
+        "microsoft-office",
+        "primavera-p6"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Ghosts of Projects Past",
+      "challenge_description": "This challenge, presented by the MOD, focuses on preventing repeated delivery failures by unlocking lessons hidden in historic project assurance artefacts, particularly Gateway reviews. Teams explore how large language models and related AI techniques can automatically extract both explicit and implicit lessons, organise them into a structured and searchable Lessons Library, and make them reusable at project start\u2011up and review stages to strengthen learning and assurance across portfolios.",
+      "challenge_slug": "challenge4",
+      "team_name": "Ghost Busters",
+      "team_slug": "a",
+      "name": "hack26-ghost-busters",
+      "child_repo_path": "submissions/hack26-challenge4-a",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-ghost-busters.git",
+      "description": "The team built an automated Lessons Learned Library that extracts recommendations and insights from historic MOD Gateway Review reports and turns them into a structured, searchable knowledge base. The solution combines document parsing, NLP categorisation, AI summarisation, and Power BI reporting to surface relevant lessons at project start-up and review stages.",
+      "key_outcomes": "Reduced time spent manually reviewing historic Gateway reports; improved reuse of assurance lessons across projects; earlier identification of recurring delivery issues; stronger organisational learning and reduced repeat failures.",
+      "important_files": [
+        {
+          "path": "33rd times a charm.ipynb",
+          "purpose": "Core notebook for extracting, categorising, and summarising lessons from Gateway Review PDFs."
+        },
+        {
+          "path": "99_problems.py",
+          "purpose": "Automated pipeline to ingest Gateway reports, classify lessons, and append them to a standard Lessons Learned Excel template."
+        },
+        {
+          "path": "20251021-Story Mapping_Lessons Learned Library.docx",
+          "purpose": "Story map outlining the end-to-end Lessons Learned Library workflow and user journeys."
+        }
+      ],
+      "required_fields": {
+        "summary": "An AI-enabled Lessons Learned Library that unlocks insights hidden in historic Gateway reviews.",
+        "problem": "Valuable assurance lessons are buried in long documents and rarely reused, leading to repeated project failures.",
+        "approach": "Automatically extract recommendations from Gateway reports, categorise and summarise them using NLP, and present them through a searchable Power BI dashboard.",
+        "deliverables": "Automated lesson extraction scripts, structured lessons dataset, Power BI Lessons Library dashboard, and documented workflow."
+      },
+      "thumbnail_path": "Image (3).png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge4",
+        "python",
+        "pdfplumber",
+        "sentence-transformers",
+        "hugging-face",
+        "power-bi",
+        "openpyxl",
+        "watchdog",
+        "lessons-learned",
+        "project-assurance",
+        "knowledge-management",
+        "document-analysis",
+        "search",
+        "governance",
+        "data-quality"
+      ],
+      "technologies": [
+        "python",
+        "pdfplumber",
+        "sentence-transformers",
+        "hugging-face",
+        "power-bi",
+        "openpyxl",
+        "watchdog"
+      ],
+      "members": [
+        "Seyi",
+        "Ben",
+        "Abi"
+      ]
+    },
+    {
+      "type": "team",
+      "challenge_name": "Ghosts of Projects Past",
+      "challenge_description": "This challenge, presented by the MOD, focuses on preventing repeated delivery failures by unlocking lessons hidden in historic project assurance artefacts, particularly Gateway reviews. Teams explore how large language models and related AI techniques can automatically extract both explicit and implicit lessons, organise them into a structured and searchable Lessons Library, and make them reusable at project start\u2011up and review stages to strengthen learning and assurance across portfolios.",
+      "challenge_slug": "challenge4",
+      "team_name": "Lessons Library Builder",
+      "team_slug": "b",
+      "name": "hack26-lessons-library-builder",
+      "child_repo_path": "submissions/hack26-challenge4-b",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-library-builder.git",
+      "description": "The team developed a scalable Lessons Library pipeline that ingests historic MOD Gateway Review documents and converts them into a large, structured lessons dataset. Their solution focuses on high\u2011volume extraction, semantic classification, and sentiment analysis to rapidly surface reusable lessons for assurance and organisational learning.",
+      "key_outcomes": "Rapid creation of a large lessons repository from unstructured Gateway reports; improved visibility of recurring positive and negative delivery themes; reduced manual effort in lessons capture; stronger evidence base for governance and assurance decisions.",
+      "important_files": [
+        {
+          "path": "Lessonslibrary.ipynb",
+          "purpose": "End-to-end notebook that extracts, classifies, and outputs a high-volume Lessons Library from Gateway Review documents."
+        },
+        {
+          "path": "Lessons.ipynb",
+          "purpose": "Prototype notebook exploring lesson extraction and AI-based processing from assurance documents."
+        },
+        {
+          "path": "output_files/csv_outputs/Lessons_Extracted_with_Sentiment.csv",
+          "purpose": "Structured dataset containing extracted lessons with thematic and sentiment scoring."
+        }
+      ],
+      "required_fields": {
+        "summary": "A high-volume, AI-driven Lessons Library built from historic Gateway Review reports.",
+        "problem": "Lessons from assurance reviews are locked in unstructured documents and are difficult to reuse at scale.",
+        "approach": "Extract text from Gateway PDFs, identify candidate lessons, classify themes and sentiment, and export structured datasets for reuse.",
+        "deliverables": "Jupyter notebooks, structured lessons CSV and Excel outputs, and a reusable Lessons Library dataset."
+      },
+      "thumbnail_path": "Gemini_Generated_Image_epjd8nepjd8nepjd.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge4",
+        "python",
+        "pymupdf",
+        "sentence-transformers",
+        "textblob",
+        "pandas",
+        "openai",
+        "openpyxl",
+        "lessons-learned",
+        "project-assurance",
+        "knowledge-management",
+        "document-analysis",
+        "sentiment-analysis",
+        "data-quality"
+      ],
+      "technologies": [
+        "python",
+        "pymupdf",
+        "sentence-transformers",
+        "textblob",
+        "pandas",
+        "openai",
+        "openpyxl"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Ghosts of Projects Past",
+      "challenge_description": "This challenge, presented by the MOD, focuses on preventing repeated delivery failures by unlocking lessons hidden in historic project assurance artefacts, particularly Gateway reviews. Teams explore how large language models and related AI techniques can automatically extract both explicit and implicit lessons, organise them into a structured and searchable Lessons Library, and make them reusable at project start\u2011up and review stages to strengthen learning and assurance across portfolios.",
+      "challenge_slug": "challenge4",
+      "team_name": "Lessons SME Agent",
+      "team_slug": "d",
+      "name": "hack26-lessons-sme-agent",
+      "child_repo_path": "submissions/hack26-challenge4-d",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-sme-agent.git",
+      "description": "The team designed a context-aware Lessons SME Agent that builds on an existing Lessons Library to deliver targeted, actionable insights from historic MOD Gateway Reviews. Their work shows how semantic retrieval and persona-driven prompts can surface the most relevant lessons and recommended actions for different roles and project phases.",
+      "key_outcomes": "More relevant lessons delivered at the point of need; reduced effort for project managers and reviewers to interpret past assurance findings; increased likelihood that lessons are acted upon rather than archived; stronger link between assurance insight and delivery decisions.",
+      "important_files": [
+        {
+          "path": "Branch 2.docx",
+          "purpose": "Defines the Branch 2 plan for turning a lessons library into targeted, context-aware intelligence via retrieval and recommendation logic."
+        },
+        {
+          "path": "CoPilot Agent Methodology.docx",
+          "purpose": "Describes the design and behaviour of a Copilot-based Lessons Learned SME Agent, including persona-specific analysis and outputs."
+        },
+        {
+          "path": "Personna Templates.docx",
+          "purpose": "Provides structured persona prompt templates to drive tailored lesson retrieval and recommendations."
+        }
+      ],
+      "required_fields": {
+        "summary": "A Lessons SME Agent that delivers targeted, actionable guidance from historic Gateway Review lessons.",
+        "problem": "Captured lessons are rarely delivered to the right people at the right time to influence project decisions.",
+        "approach": "Use semantic retrieval and LLM prompting to match lessons to user role, project phase, and stated concerns.",
+        "deliverables": "Lessons SME Agent concept, persona-based prompt templates, and retrieval-driven recommendation logic."
+      },
+      "thumbnail_path": "Master of Lessons Logo White.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge4",
+        "python",
+        "sentence-transformers",
+        "vector-databases",
+        "retrieval-augmented-generation",
+        "large-language-models",
+        "microsoft-copilot",
+        "lessons-learned",
+        "project-assurance",
+        "knowledge-management",
+        "semantic-search",
+        "decision-support",
+        "governance"
+      ],
+      "technologies": [
+        "python",
+        "sentence-transformers",
+        "vector-databases",
+        "retrieval-augmented-generation",
+        "large-language-models",
+        "microsoft-copilot"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Ghosts of Projects Past",
+      "challenge_description": "This challenge, presented by the MOD, focuses on preventing repeated delivery failures by unlocking lessons hidden in historic project assurance artefacts, particularly Gateway reviews. Teams explore how large language models and related AI techniques can automatically extract both explicit and implicit lessons, organise them into a structured and searchable Lessons Library, and make them reusable at project start\u2011up and review stages to strengthen learning and assurance across portfolios.",
+      "challenge_slug": "challenge4",
+      "team_name": "Lessons Intake & Power BI Flow",
+      "team_slug": "e",
+      "name": "hack26-lessons-intake-power-bi-flow",
+      "child_repo_path": "submissions/hack26-challenge4-e",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-intake-power-bi-flow.git",
+      "description": "The team focused on standardising the capture and reporting of lessons learned from MOD Gateway Reviews by creating a structured lessons dataset and Power BI ingestion flow. Their work demonstrates how consistent data schemas, Microsoft Forms, and Power BI automation can turn assurance outputs into a repeatable, analysable Lessons Library.",
+      "key_outcomes": "Improved consistency in how lessons are captured; reduced manual effort in consolidating assurance findings; faster reporting and visibility of critical and essential lessons; stronger foundations for organisation-wide lessons reuse.",
+      "important_files": [
+        {
+          "path": "Lessons_Learned.CSV (2).txt",
+          "purpose": "Structured lessons dataset extracted from Gateway Reviews, defining consistent fields for reporting and analysis."
+        },
+        {
+          "path": "Flow Template Code - Paste into Power BI.txt",
+          "purpose": "Power BI flow template enabling automated ingestion and refresh of lessons data."
+        },
+        {
+          "path": "MS Form Dupe code.txt",
+          "purpose": "Microsoft Forms link used to standardise lesson capture at source."
+        }
+      ],
+      "required_fields": {
+        "summary": "A standardised lessons capture and reporting pipeline built around Power BI.",
+        "problem": "Lessons are captured inconsistently across assurance reviews, making analysis and reuse difficult.",
+        "approach": "Define a common lessons schema, capture data via Microsoft Forms, and automate ingestion into Power BI.",
+        "deliverables": "Structured lessons CSV, Power BI flow template, and standardised lesson capture form."
+      },
+      "thumbnail_path": "Submission/04. Supporting Documents/Power BI Demo.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge4",
+        "power-bi",
+        "power-automate",
+        "microsoft-forms",
+        "csv",
+        "excel",
+        "lessons-learned",
+        "project-assurance",
+        "knowledge-management",
+        "data-standardisation",
+        "reporting",
+        "governance"
+      ],
+      "technologies": [
+        "power-bi",
+        "power-automate",
+        "microsoft-forms",
+        "csv",
+        "excel"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "Resource Behaviour Monitor",
+      "team_slug": "a",
+      "name": "hack26-resource-behaviour-monitor",
+      "child_repo_path": "submissions/hack26-challenge5-a",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-resource-behaviour-monitor.git",
+      "description": "The team proposed a comprehensive behavioural analytics dashboard to expose hidden patterns in project scheduling and resourcing that undermine delivery confidence. Using defined schedule and resource integrity metrics, the solution highlights chronic under\u2011 and over\u2011utilisation, forecast inaccuracy, ignored dependencies, and reliance on generic resources to prompt earlier intervention and better planning behaviour.",
+      "key_outcomes": "Earlier identification of unrealistic schedules and resource risks; improved forecast accuracy through visibility of slippage and volatility trends; reduced burnout and waste by highlighting chronic overloads and underloads; stronger management focus on systemic planning behaviours.",
+      "important_files": [
+        {
+          "path": "Challenge 5 Ideas.docx",
+          "purpose": "Defines proposed behavioural metrics and dashboard concepts for schedule and resource health analysis."
+        },
+        {
+          "path": "Fake Dataset 26.05 Data Dictionary.docx",
+          "purpose": "Documents the synthetic dataset structure used to simulate scheduling and resourcing behaviours."
+        },
+        {
+          "path": "Supplementary Information Challenge 5.docx",
+          "purpose": "Provides extended behavioural indicators and future directions for a project health and behaviour monitor."
+        }
+      ],
+      "required_fields": {
+        "summary": "A behavioural analytics dashboard to reveal poor planning and resourcing practices.",
+        "problem": "Systemic forecasting and resource planning issues remain hidden until they impact delivery.",
+        "approach": "Analyse schedule and resource data to surface trends in slippage, utilisation, volatility, and planning integrity.",
+        "deliverables": "Dashboard concept, defined behavioural metrics, and supporting synthetic dataset and data dictionary."
+      },
+      "thumbnail_path": "Copilot_20251020_221230.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "power-bi",
+        "data-visualisation",
+        "analytics",
+        "enterprise-data-platforms",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "project-controls",
+        "data-quality",
+        "analytics-dashboards"
+      ],
+      "technologies": [
+        "power-bi",
+        "data-visualisation",
+        "analytics",
+        "enterprise-data-platforms"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "Resource Behaviour Insights",
+      "team_slug": "b",
+      "name": "hack26-resource-behaviour-insights",
+      "child_repo_path": "submissions/hack26-challenge5-b",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-resource-behaviour-insights.git",
+      "description": "The team delivered a Power BI\u2013based behavioural analytics solution that visualises forecast accuracy and resource utilisation to expose poor planning practices. By cleaning and transforming milestone and financial data, they created interactive dashboards that highlight generic resource use, under\u2011utilisation, over\u2011allocation, and forecasting gaps, supported by Copilot\u2011enhanced behavioural insights.",
+      "key_outcomes": "Improved visibility of forecast versus actual utilisation; faster identification of inefficient or misleading resource plans; increased transparency for leaders and teams; stronger foundation for changing forecasting and resourcing behaviours.",
+      "important_files": [
+        {
+          "path": "Hack summary.docx",
+          "purpose": "Summarises data preparation steps, utilisation analysis, and key dashboard features."
+        },
+        {
+          "path": "Implementation Plan for Power BI Project Arches.docx",
+          "purpose": "Outlines the rollout approach and governance model for embedding the Power BI solution."
+        },
+        {
+          "path": "Q&As.docx",
+          "purpose": "Explains design decisions, data quality controls, and how the solution supports behavioural change."
+        }
+      ],
+      "required_fields": {
+        "summary": "A Power BI dashboard that exposes resource utilisation and forecasting behaviours.",
+        "problem": "Poor resource planning behaviours remain hidden in raw schedule and financial data.",
+        "approach": "Clean and transform planning data, calculate effective utilisation, and visualise behavioural patterns in Power BI.",
+        "deliverables": "Interactive Power BI dashboards, utilisation metrics, and an implementation plan."
+      },
+      "thumbnail_path": "Recordings of key features/Photo for Benefits.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "power-bi",
+        "microsoft-copilot",
+        "data-visualisation",
+        "analytics",
+        "enterprise-data-platforms",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "project-controls",
+        "data-quality"
+      ],
+      "technologies": [
+        "power-bi",
+        "microsoft-copilot",
+        "data-visualisation",
+        "analytics",
+        "enterprise-data-platforms"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "Project Health and Behaviour Monitor",
+      "team_slug": "c",
+      "name": "hack26-project-health-and-behaviour-monitor",
+      "child_repo_path": "submissions/hack26-challenge5-c",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-project-health-and-behaviour-monitor.git",
+      "description": "The team focused on establishing strong data quality and analytical foundations for a Project Health and Behaviour Monitor. Using a structured synthetic dataset, they demonstrated how task-level schedule, cost, and resource attributes can be cleaned, validated, and analysed to identify volatility, critical path risk, forecasting accuracy issues, and problematic resourcing behaviours.",
+      "key_outcomes": "Improved reliability of planning data through systematic cleansing; clearer identification of behavioural risk indicators such as volatility and ignored dependencies; stronger analytical basis for predictive dashboards; reduced noise and ambiguity in schedule and resource analysis.",
+      "important_files": [
+        {
+          "path": "Team 5c.ipynb",
+          "purpose": "Notebook demonstrating data quality checks, cleansing, and exploratory analysis of schedule and resource behaviours."
+        },
+        {
+          "path": "Source Data/Fake Dataset 26.05 Data Dictionary.docx",
+          "purpose": "Defines the structure and meaning of the synthetic dataset used for behavioural analysis."
+        },
+        {
+          "path": "Source Data/Supplementary Information Challenge 5.docx",
+          "purpose": "Outlines extended behavioural metrics and future directions for a project health monitor."
+        }
+      ],
+      "required_fields": {
+        "summary": "Analytical groundwork for a Project Health and Behaviour Monitor focused on data quality.",
+        "problem": "Poor data quality and inconsistency obscure true planning and resourcing behaviours.",
+        "approach": "Clean, validate, and analyse task-level schedule and resource data to surface behavioural risk indicators.",
+        "deliverables": "Cleaned analytical dataset, data quality notebook, and defined behavioural metrics."
+      },
+      "thumbnail_path": "Actual vs Predicted Duration using Random forest.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "python",
+        "pandas",
+        "jupyter",
+        "data-analysis",
+        "analytics",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "data-quality",
+        "project-controls"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "jupyter",
+        "data-analysis",
+        "analytics"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "Behavioural Planning Insights",
+      "team_slug": "e",
+      "name": "hack26-behavioural-planning-insights",
+      "child_repo_path": "submissions/hack26-challenge5-e",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-behavioural-planning-insights.git",
+      "description": "The team explored persona\u2011driven behavioural analytics to address risky resource planning practices. By combining detailed persona definitions, behavioural metrics, and deep analysis of forecasting and utilisation data, they designed a dashboard concept that highlights over\u2011optimistic planning, generic resource use, and weak feedback loops, with tailored insights for planners, project managers, resource managers, and senior leaders.",
+      "key_outcomes": "Clearer visibility of behavioural drivers behind poor forecasts; improved alignment of insights to different decision\u2011makers; earlier detection of over\u2011optimism and placeholder usage; stronger basis for cultural change in planning practices.",
+      "important_files": [
+        {
+          "path": "Personas-four.docx",
+          "purpose": "Defines detailed personas and their planning pains, goals, and dashboard needs."
+        },
+        {
+          "path": "Reports/Chat GPT Deep Research Risky Resource Routines Dashboard.docx",
+          "purpose": "Provides deep analytical narrative, derived metrics, and behavioural insights for the dashboard concept."
+        },
+        {
+          "path": "\ud83c\udfaf Story Mapping Summary.docx",
+          "purpose": "Maps user stories and behavioural goals to analytics features for the solution."
+        }
+      ],
+      "required_fields": {
+        "summary": "A persona\u2011led behavioural analytics concept for exposing risky resource routines.",
+        "problem": "Poor planning behaviours persist because insights are not tailored to different decision\u2011makers.",
+        "approach": "Analyse forecasting and utilisation data, derive behavioural indicators, and map insights to user personas.",
+        "deliverables": "Persona definitions, behavioural metrics, analytical report, and story\u2011mapped dashboard features."
+      },
+      "thumbnail_path": "Images/transparent_background_logo.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "python",
+        "pandas",
+        "analytics",
+        "data-profiling",
+        "visualisation",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "data-visualisation",
+        "project-controls",
+        "data-quality"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "analytics",
+        "data-profiling",
+        "visualisation"
+      ],
+      "members": []
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "Forecast Force",
+      "team_slug": "f",
+      "name": "hack26-forecast-force",
+      "child_repo_path": "submissions/hack26-challenge5-f",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-forecast-force.git",
+      "description": "The team developed a proactive behavioural analytics solution focused on surfacing risky resourcing and forecasting behaviours early. Using Python-based analysis and clear visual storytelling, they translate schedule and resource data into behavioural flags and practical recommendations that support early intervention and constructive, blame-free discussions.",
+      "key_outcomes": "Earlier detection of resourcing and forecasting risks; clearer behavioural signals to prompt timely action; reduced likelihood of late-stage schedule or budget surprises; improved confidence and transparency in planning conversations.",
+      "important_files": [
+        {
+          "path": "PowerPoint Presentation/Storyboard write up.docx",
+          "purpose": "Sets out the narrative, problem framing, and behavioural focus of the Forecast Force solution."
+        },
+        {
+          "path": "Python Files/Risky_Resource.ipynb",
+          "purpose": "Implements derived behavioural metrics and flags to identify risky resource and forecasting patterns."
+        },
+        {
+          "path": "Source Data/Behavioural Output/Behavioural Analysis Output.csv",
+          "purpose": "Provides example task-level outputs showing detected behaviours and recommended actions."
+        }
+      ],
+      "required_fields": {
+        "summary": "A proactive behavioural analytics approach to surface risky resource routines early.",
+        "problem": "Resourcing and forecasting issues are often identified too late, after delivery impact.",
+        "approach": "Derive behavioural indicators from schedule and resource data and present them through clear analytics and visual narratives.",
+        "deliverables": "Behavioural analysis scripts, task-level behavioural outputs, and a storyboarded dashboard concept."
+      },
+      "thumbnail_path": "Logo/Forecast Force logo (no background).png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "python",
+        "pandas",
+        "jupyter",
+        "analytics",
+        "data-visualisation",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "project-controls",
+        "data-quality"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "jupyter",
+        "analytics",
+        "data-visualisation"
+      ],
+      "members": [
+        "Stephen",
+        "Dan",
+        "Roger",
+        "Meg",
+        "Loraine"
+      ]
+    },
+    {
+      "type": "team",
+      "challenge_name": "Risky Resource Routines: Pinpointing Patterns for Preventing Poor Practices",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project delivery by exposing and addressing poor resource planning and scheduling behaviours. Teams are invited to design behavioural analytics dashboards or tools that reveal hidden patterns in forecasting accuracy, resource over\u2011 and under\u2011utilisation, and reliance on generic placeholders, turning planning data into insight that drives better decisions and sustainable behaviour change.",
+      "challenge_slug": "challenge5",
+      "team_name": "PRISM",
+      "team_slug": "g",
+      "name": "hack26-prism",
+      "child_repo_path": "submissions/hack26-challenge5-g",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-prism.git",
+      "description": "PRISM (Planning Risk Insight and Scheduling Monitor) is a working behavioural analytics solution that exposes risky resource and forecasting practices across portfolios. Built for Challenge 5, it provides persona\u2011specific dashboards for planners, resource managers, project managers, and senior leaders, analysing utilisation, forecast accuracy, milestone drift, and critical path volatility to surface early warnings and practical recommendations.",
+      "key_outcomes": "Earlier identification of overloaded and underloaded resources; improved forecast realism through behavioural feedback; reduced risk of missed milestones via early warning indicators; stronger, evidence\u2011based decision making across delivery roles.",
+      "important_files": [
+        {
+          "path": "Team Resorcerers Script.docx",
+          "purpose": "Describes the PRISM concept, personas, pain points, and behavioural insights addressed by the solution."
+        },
+        {
+          "path": "USER_INSTALLATION_GUIDE.md",
+          "purpose": "Provides step\u2011by\u2011step instructions to install and run the PRISM Streamlit dashboard suite."
+        },
+        {
+          "path": "Thales_Hackathon_Plan.docx",
+          "purpose": "Outlines the delivery plan, KPIs, and dashboard structure aligned to Challenge 5."
+        }
+      ],
+      "required_fields": {
+        "summary": "PRISM is a behavioural analytics dashboard that highlights risky resource and planning routines.",
+        "problem": "Systemic resourcing and forecasting issues are often hidden until they negatively impact delivery.",
+        "approach": "Analyse schedule and resource data to derive behavioural indicators, visualise risks, and trigger early warnings and recommendations.",
+        "deliverables": "Streamlit dashboard suite, behavioural metrics, predictive insights, and an installation guide."
+      },
+      "thumbnail_path": "Resorcerers logo.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge5",
+        "python",
+        "streamlit",
+        "pandas",
+        "analytics",
+        "machine-learning",
+        "data-visualisation",
+        "resource-management",
+        "schedule-forecasting",
+        "behavioural-analytics",
+        "project-controls",
+        "data-quality"
+      ],
+      "technologies": [
+        "python",
+        "streamlit",
+        "pandas",
+        "analytics",
+        "machine-learning",
+        "data-visualisation"
+      ],
+      "members": [
+        "Alex M",
+        "Sharath",
+        "Nicole",
+        "Alex Scott"
+      ]
+    }
+  ]
+}
