@@ -1,0 +1,45 @@
+[submodule "submissions/hack26-challenge1-a"]
+	path = submissions/hack26-challenge1-a
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-jim-e.git
+[submodule "submissions/hack26-challenge1-b"]
+	path = submissions/hack26-challenge1-b
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-ai-risk-evaluator.git
+[submodule "submissions/hack26-challenge1-c"]
+	path = submissions/hack26-challenge1-c
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-risk-hacktory.git
+[submodule "submissions/hack26-challenge1-d"]
+	path = submissions/hack26-challenge1-d
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-risk-assessment-rule-management-system.git
+[submodule "submissions/hack26-challenge2-a"]
+	path = submissions/hack26-challenge2-a
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-autoplan-wbs-generator.git
+[submodule "submissions/hack26-challenge4-a"]
+	path = submissions/hack26-challenge4-a
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-ghost-busters.git
+[submodule "submissions/hack26-challenge4-b"]
+	path = submissions/hack26-challenge4-b
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-library-builder.git
+[submodule "submissions/hack26-challenge4-d"]
+	path = submissions/hack26-challenge4-d
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-sme-agent.git
+[submodule "submissions/hack26-challenge4-e"]
+	path = submissions/hack26-challenge4-e
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-lessons-intake-power-bi-flow.git
+[submodule "submissions/hack26-challenge5-a"]
+	path = submissions/hack26-challenge5-a
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-resource-behaviour-monitor.git
+[submodule "submissions/hack26-challenge5-b"]
+	path = submissions/hack26-challenge5-b
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-resource-behaviour-insights.git
+[submodule "submissions/hack26-challenge5-c"]
+	path = submissions/hack26-challenge5-c
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-project-health-and-behaviour-monitor.git
+[submodule "submissions/hack26-challenge5-e"]
+	path = submissions/hack26-challenge5-e
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-behavioural-planning-insights.git
+[submodule "submissions/hack26-challenge5-f"]
+	path = submissions/hack26-challenge5-f
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-forecast-force.git
+[submodule "submissions/hack26-challenge5-g"]
+	path = submissions/hack26-challenge5-g
+	url = https://github.com/Projecting-Success-Solutions-Portal/hack26-prism.git
